@@ -10,8 +10,8 @@ const Header: React.FC<HeaderProps> = () => {
             <Image style={[styles.avatar, { borderWidth: 1, width: 45, height: 45 }]} resizeMode="cover" source={Images.ic_gamecenter} />
             <View style={{ flexDirection: "row", alignItems: "center" }}>
                 <View style={{ marginRight: 10 }}>
-                    <Text style={[styles.text, { color: "#646464" }]}>Username</Text>
-                    <Text style={styles.text}>Subtitle</Text>
+                    <Text style={[styles.text, { color: "#646464" }]}>Handicrafted by</Text>
+                    <Text style={styles.text}>JIM HLS</Text>
                 </View>
                 <Image style={styles.avatar} resizeMode="cover" source={Images.ic_user} />
             </View>

@@ -13,8 +13,8 @@ const Header: React.FC<HeaderProps> = () => {
 			</div>
 			<div className="avatar">
 				<div className="account">
-					<span className="username">Username</span>
-					<span>Subtitle</span>
+					<span className="username">Handicrafted by</span>
+					<span>Jim HLS</span>
 				</div>
 				<img src={avatar} alt="avatar" width="70px" />
 			</div>
