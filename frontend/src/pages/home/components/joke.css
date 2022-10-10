@@ -1,0 +1,31 @@
+.content {
+	flex: 1;
+	background-color: #fff;
+	padding-left: 22%;
+	padding-right: 22%;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.text {
+	font-size: 15;
+	font-weight: 400;
+	color: #646464;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+	.content {
+		padding-left: 7%;
+		padding-right: 7%;
+	}
+}
+/* ipad */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/* ipad pro */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* desktop */
+@media (min-width: 1200px) {
+}

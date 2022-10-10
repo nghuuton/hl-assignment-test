@@ -1,0 +1,33 @@
+.footer {
+	text-align: center;
+	font-size: 13px;
+	margin-top: 1rem;
+	padding-top: 1rem;
+	color: #646464;
+	padding-right: 22.22%;
+	padding-left: 22.22%;
+	padding-bottom: 1rem;
+}
+
+.copyright {
+	display: block;
+	font-weight: 500;
+	margin-top: 1rem;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+	.footer {
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+}
+/* ipad */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/* ipad pro */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* desktop */
+@media (min-width: 1200px) {
+}
